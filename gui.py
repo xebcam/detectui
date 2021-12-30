@@ -4,10 +4,10 @@ from PIL import ImageTk, Image
 
 root = tkinter.Tk()
 
-frame = tkinter.LabelFrame(root, text="Imagen Original", padx=10, pady=10)
+frame = tkinter.LabelFrame(root, text="Imagen Original", font = ("arial", 16), padx=10, pady=10)
 frame.grid(row=0, column=0, padx = 10, pady = 10)
 
-frame1 = tkinter.LabelFrame(root, text="Deteccion", font = ("arial", 50), padx=10, pady=10)
+frame1 = tkinter.LabelFrame(root, text="Deteccion", font = ("arial", 16), padx=10, pady=10)
 frame1.grid(row=0, column=1, padx = 10, pady = 10)
 
 label = tkinter.Label(frame)
